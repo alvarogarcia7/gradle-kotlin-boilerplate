@@ -23,7 +23,7 @@ dependencies {
     testCompile group: 'com.nhaarman', name: 'mockito-kotlin', version: '1.6.0'
 
     // extension to the language
-    compile "io.arrow-kt:arrow-core:0.6.1"
+    compile group: 'io.arrow-kt', name: 'arrow-core', version: '0.8.1'
 }
 
 //https://stackoverflow.com/questions/19990716/how-to-ignore-a-specific-transitive-dependency-from-all-dependencies-in-gradle#19991364
